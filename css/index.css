@@ -399,6 +399,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   flex-direction: column;
   gap: 40px;
   padding: 0px 55px; }
+  @media (max-width: 490.98px) {
+    .content-about {
+      margin-top: 31px; } }
   @media (max-width: 790.98px) {
     .content-about {
       gap: 20px;
@@ -500,6 +503,10 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
       -ms-flex-pack: center;
       justify-content: center;
       justify-items: center; } }
+  @media (max-width: 490.98px) {
+    .set {
+      margin-top: 31px;
+      margin-bottom: 30px; } }
   @media (max-width: 890.98px) {
     .set {
       gap: 18px; } }
@@ -526,6 +533,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 .contact {
   margin-bottom: 50px; }
+  @media (max-width: 790.98px) {
+    .contact {
+      margin-bottom: 30px; } }
   .contact__container {
     max-width: 1230px;
     padding-left: 15px;
@@ -553,6 +563,10 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
     @media (max-width: 791px) {
       .contact__shell {
         padding: 50px 0px 50px 0px; } }
+    @media (max-width: 490.98px) {
+      .contact__shell {
+        gap: 30px;
+        padding: 30px 0px 140px 0px; } }
   .contact__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -616,6 +630,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
         -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
         flex: 1 0 auto; } }
+    @media (max-width: 490.98px) {
+      .contact__info {
+        padding-top: 10px; } }
   .contact__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -816,13 +833,16 @@ body {
       padding: 80px 0px 160px 0px; } }
   @media (max-width: 490.98px) {
     .page__hero {
-      padding: 60px 0px 100px 0px; } }
+      padding: 60px 0px 70px 0px; } }
 
 .page__services {
   padding: 59px 0 0 0; }
   @media (max-width: 990.98px) {
     .page__services {
       padding: 59px 0 28px 0; } }
+  @media (max-width: 490.98px) {
+    .page__services {
+      padding: 39px 0 28px 0; } }
 
 .page__about {
   padding: 80px 0 100px 0; }
@@ -833,6 +853,9 @@ body {
     .page__about {
       padding: 0px 0 50px 0;
       margin-bottom: 40px; } }
+  @media (max-width: 490.98px) {
+    .page__about {
+      padding: 0px 0 30px 0; } }
 
 .footer {
   background-color: #C4C4C4;
