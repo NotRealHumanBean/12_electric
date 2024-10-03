@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SF-Pro-Display-Semibold';
+  src: url(./SF-Pro-Display-Semibold.eot);
+  src: url(./SF-Pro-Display-Semibold.eot?#iefix) format('embedded-opentype'),
+       url(./SF-Pro-Display-Semibold.otf) format('otf'),
+       url(./SF-Pro-Display-Semibold.svg#SF-Pro-Display-Semibold) format('svg'),
+       url(./SF-Pro-Display-Semibold.ttf) format('truetype'),
+       url(./SF-Pro-Display-Semibold.woff) format('woff'),
+       url(./SF-Pro-Display-Semibold.woff2) format('woff2');
+}
